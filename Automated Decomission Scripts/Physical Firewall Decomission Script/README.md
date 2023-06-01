@@ -11,7 +11,7 @@ The script takes a CSV file (provided by the user) with the firewalls IP informa
 - Are there any ARP records present on the firewall?
 - Any NAT statements present on the firewall?
     - If present do they currently respond to ping attempts?
-- Does the firewall havew the FirePower module running?
+- Does the firewall have the FirePower module running?
 
 As the script checks each firewall it creates a log file for all commands run and their output should the engineer running the script need to review these.
 
