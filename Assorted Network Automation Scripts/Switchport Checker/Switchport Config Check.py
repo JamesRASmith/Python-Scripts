@@ -18,7 +18,7 @@ def main():
     ##Connecting to switch, catching errors and starting the script again
     try:
         device = {
-            "device_type": '',
+            "device_type": 'cisco_asa',
             "host": switch_hostname,
             "username": ssh_user,
             "password": ssh_pass,
