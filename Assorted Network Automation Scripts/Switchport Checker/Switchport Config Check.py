@@ -7,7 +7,7 @@ import getpass
 #ssh_user = 'xxxxxxx'
 #ssh_pass = 'XXXX'
 # Option 2 - AAA Creds
-ssh_user = 'username'
+ssh_user = input(str("Enter username: "))
 ssh_pass = getpass.getpass(prompt="Password for '" + ssh_user + "': ")
 
 ##Taking switch and switchport from user
