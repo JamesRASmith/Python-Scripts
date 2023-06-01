@@ -18,7 +18,7 @@ print(r"""
 
         """)
 
-ssh_user = 'xxxxxxx'
+ssh_user = input(str("Enter TACACS username: "))
 ssh_pass = getpass.getpass(prompt="Password for '" + ssh_user + "': ")
 
 def main():
@@ -27,7 +27,7 @@ def main():
     server_ip = input(str("Server IP: "))
     try:
         device = {
-                "device_type": '',
+                "device_type": 'cisco_asa',
                 "host": hostname,
                 "username": ssh_user,
                 "password": ssh_pass,
