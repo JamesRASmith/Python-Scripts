@@ -1,6 +1,6 @@
 ## Physical Firewall Decomission Script
 
-A Python script I created that is used to automate a number of checks required by the company before a client firewall can be decomissioned.
+A Python script I created that makes use of Netmiko & Pandas to automate a number of checks required before a client firewall can be decomissioned.
 
 The script takes a CSV file (provided by the user) with the firewalls IP information & hostname and uses the information to carry out the below checks on the firewall.
 
