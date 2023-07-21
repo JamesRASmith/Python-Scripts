@@ -18,7 +18,7 @@ pandas library
    
    Server_Internal_IP: The internal IP address of the firewall.
 
-![image](https://github.com/JamesRASmith/Python-Scripts/assets/57868272/24ec2d77-4ec3-495f-aa56-8b29573b4efc)
+   ![image](https://github.com/JamesRASmith/Python-Scripts/assets/57868272/24ec2d77-4ec3-495f-aa56-8b29573b4efc)
 
 2) Run the script and provide the required credentials for connecting to the firewalls. You have two options:
 
